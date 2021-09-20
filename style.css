@@ -1,0 +1,74 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+#nav{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+
+#feed{
+    padding: 1%;
+    justify-content: center;
+}
+
+#feed h2{
+    display: block
+}
+
+#picture{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin: 5%;
+}
+
+#content{
+    display: flex;
+    
+    justify-content:space-between;
+
+}
+
+#avatar{
+    display: flex;
+    flex-direction: column;
+    border: black solid 4px;
+    padding: 5%;
+}
+
+#messages{
+    display:flex;
+    flex-direction: column;
+    border: black solid 4px;
+    padding: 5%;
+}
+
+#likeandname{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#name{
+    justify-content: flex-start;
+}
+
+#likes{
+    justify-content: flex-end;
+}
+
+#likeBtn{
+    justify-content: flex-end;
+}
+
+#messageBlock{
+    border: black solid 3px;
+    margin: 1%;
+}
